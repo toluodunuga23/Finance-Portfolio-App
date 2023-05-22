@@ -1,0 +1,111 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey"],
+        "responses": ["Hello! How can I assist you with your finances today?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "Bye", "See you later"],
+        "responses": ["Goodbye! Have a great day ahead."]
+      },
+      {
+        "tag": "savings",
+        "patterns": ["How can I save money?", "Tips for saving money", "How to increase savings"],
+        "responses": ["To save money, you can try budgeting, cutting unnecessary expenses, and automating your savings."]
+      },
+
+      {
+        "tag": "portfolio_worth",
+        "patterns": ["How much is my portfolio worth?", "Portfolio value", "Portfolio worth"],
+        "responses": ["Portfolio Worth"],
+        "context_set":""
+      },
+
+      {
+        "tag": "portfolio_gains",
+        "patterns": ["How much did I gain?", "Portfolio gains", "Portfolio gain"],
+        "responses": ["Portfolio Gains"],
+        "context_set":""
+      },
+
+
+
+
+      {
+        "tag":"plot_chart",
+        "patterns":["I want you to plot a stock price!","Please plot a chart","Plot a chart"],
+        "responses":["Plotting a chart! "],
+        "context_set":""
+
+      },
+      {
+        "tag":"add_portfolio",
+        "patterns":["Add a stock to my portfolio","Add a stock","Add a stock to portfolio"],
+        "responses":["Adding Stock to your portfolio! "],
+        "context_set":""
+
+      },
+
+      {
+        "tag":"show_portfolio",
+        "patterns":["Show my portfolio","Show portfolio","Show my stocks"],
+        "responses":["Showing your portfolio! "],
+        "context_set":""
+
+      },
+
+
+      {
+        "tag": "investing",
+        "patterns": ["How to start investing?", "Investment options", "Best investments"],
+        "responses": ["To start investing, consider opening a brokerage account, diversifying your portfolio, and researching different investment options."]
+      },
+      {
+        "tag": "budgeting",
+        "patterns": ["How to create a budget?", "Budgeting tips", "Managing expenses"],
+        "responses": ["To create a budget, track your income and expenses, set financial goals, and allocate your funds accordingly."]
+      },
+      {
+        "tag": "credit_score",
+        "patterns": ["How to improve credit score?", "Credit score information", "Building credit"],
+        "responses": ["To improve your credit score, make payments on time, reduce credit utilization, and check your credit report regularly."]
+      },
+      {
+        "tag": "loan",
+        "patterns": ["Types of loans", "Loan application process", "Loan repayment"],
+        "responses": ["There are various types of loans such as personal loans, home loans, and auto loans. The loan application process involves filling out an application, providing necessary documents, and undergoing a credit check."]
+      },
+      {
+        "tag": "stocks",
+        "patterns": ["Stock market information", "Stock trading strategies", "Stock market analysis"],
+        "responses": ["The stock market can be analyzed through fundamental and technical analysis. It's important to research stocks, follow market trends, and consider your risk tolerance when trading stocks."]
+      },
+      {
+        "tag": "insurance",
+        "patterns": ["Types of insurance", "Choosing insurance coverage", "Insurance claims"],
+        "responses": ["Insurance options include health insurance, life insurance, and car insurance. When choosing coverage, assess your needs, compare policies, and review the terms and conditions."]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks a lot", "Appreciate your help"],
+        "responses": ["You're welcome! If you have any more questions, feel free to ask."]
+      },
+      {
+        "tag": "bye",
+        "patterns": ["Bye", "Goodbye", "See you later"],
+        "responses": ["Goodbye! Have a great day ahead."],
+        "context_set":""
+
+      },
+
+
+      {
+        "tag": "fallback",
+        "patterns": ["I don't understand", "Can you repeat that?", "Sorry, I'm confused"],
+        "responses": ["I apologize for the confusion. Could you please rephrase your question?"]
+      }
+    ]
+  }
+  
